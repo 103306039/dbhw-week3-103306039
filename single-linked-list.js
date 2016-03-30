@@ -12,6 +12,7 @@ function SinglyLinkedList() {
 SinglyLinkedList.prototype.add = function(data) {
   var node = new Node(data);
   if(!this.head) {
+    this.head = node;
     //TODO
   } else {
     //TODO
